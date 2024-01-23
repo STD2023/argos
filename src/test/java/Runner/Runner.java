@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features = {"src/test/java/com/features"},
 		glue= {"HomePage_Steps","Hooks"},
-		tags= "@multi",
+		//tags= "@multi",
 		plugin= {"pretty"},
 		publish=true
 		
