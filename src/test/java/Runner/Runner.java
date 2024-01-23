@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = {"src/test/java/com/features"},
+		features = {"src/test/java/com/features/HomePage.feature"},
 		glue= {"HomePage_Steps","Hooks"},
 		//tags= "@multi",
 		plugin= {"pretty"},
